@@ -1,0 +1,152 @@
+Web Penetration 
+
+Pentesting techniques :
+
+	 1.Information gathering,
+	 2.Scanning and enumeration,
+	 3.Exploitation,
+	 4.Maintaining access,
+	 5. Cleanp
+ Tools:
+ 	Burp Suit(Pro)
+ 	Nikto,
+ 	Dirbuster,
+ 	Curl,
+ 	Sublist3r,
+ 	Nmap,
+ 	and More..
+ 	
+ Attacks:
+ 	
+ 	OWASP Top 10 (eg Injection, Broken Autentication, XXS, XXE, etc)
+ 	and Some More
+ 
+ Other:
+ 	Importtant Documents,
+ 	Resources,
+ 	Career Advice, Etc.
+ 
+   
+ FIVE STAGES OF HACKING:
+ 	1.Reconnaissance:
+ 		=>	Information Gathering :
+ 			=>		Active and Passive,
+ 				
+ 					
+ 	2.Scanning and Enumeration,
+ 	3.Gaining Access,
+ 	4.Maintaining Access,
+ 	5.Covering Tracks.
+ 
+ * Passive Recinnaissance :
+ 	
+ 	* Target Validation:
+ 		=> WHOIS, nslooup, dnsrecon
+ 	* Finding Subdomains:
+ 		=> Google Fu, dig, Nmap, Sublist3r, Bluto,Crt.sh, etc.
+ 	* Fingerprinting:
+ 		=> Nmap, Wappalyzer, WhatWeb,BuuiltWith,Netcat
+ 	* Data Breaches:
+ 		HaveIBeenPwned and Similar lists
+ 		
+ 		
+ 	*****************************   TASK	*****************************************			
+ 		We Have been Asked to gather information about the company
+ 		irobot.com. let's take a look at some information gathering
+ 		tools and see what useful information we come up with.
+ 
+ *****************************************		
+ Sublist3r :
+ 	
+First for All we will clone sublist3r from github
+	=> link : https://github.com/aboul3la/Sublist3r.git
+	=> sudo pip install -r requirements.txt
+
+ To get info of a domain and fining sub domains
+ 
+ 	=> python3 sublist3r.py -d http://www.irobot.com/  (Domain name)
+ 
+ Another site like sublist3r is 
+ 	=> crt.sh
+ 
+ To find weakness in website search it through 
+ 	=> securityheaders.io
+ 		
+To practise a pre vernability website
+	=> dvwa.co.uk
+ *****************************************		
+BrupSUITE
+
+Burp Suite is integreated platform commonly use for security testing
+it can also be used as proxy, intruder, scanner, decoder etc.
+Avalible for Mac, Linux, and Windows.
+
+How to use Brupsuite 
+
+First we have to configure the browser proxy 
+127.0.0.1 port 8080
+
+use firefox extenstion to get info of the site 
+	=> Wappalyzer
+and silimar site  to this is 
+	=> http://builtwith.com/
+and other similar site is:
+	=> weleakinfo.com 
+	=> hunter.io
+ *****************************************	
+   Nikto:
+  
+  	Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers for 		multiple items
+
+website scan:   
+	=> nikto -h https://www.irobot.com
+
+ip scan:
+	=> nikto -h 192.168.48.5 -p 80
+ 
+ HIDE BEFORE YOU ATTACK
+ BEAWARE WHILE USING IT, IT SENDS LOTS OF IP REQUESTS 
+ 
+  *****************************************	
+  
+
+ 	 
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
+ 		
