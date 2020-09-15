@@ -141,7 +141,12 @@ To incerese the speed of the scan;
      => masscan -p1-65535  --rate 1000 192.168.10.2  
   *****************************************
   
- 		
+ 	05 Metasploit:
+  To run metasploit:
+      => msfconsole
+  To search To scanner:
+      => search portscan
+      	
  		
  		
  		
