@@ -1,0 +1,24 @@
+
+root@myDaddy:/home/toxicbot# nmap -sS -A -T4 -p- 10.10.10.198 
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-09-18 00:05 EDT
+Nmap scan report for 10.10.10.198
+Host is up (0.75s latency).
+Not shown: 65533 filtered ports
+PORT     STATE SERVICE    VERSION
+7680/tcp open  pando-pub?
+8080/tcp open  http       Apache httpd 2.4.43 ((Win64) OpenSSL/1.1.1g PHP/7.4.6)
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.6
+|_http-title: mrb3n's Bro Hut
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+OS fingerprint not ideal because: Missing a closed TCP port so results incomplete
+No OS matches for host
+Network Distance: 2 hops
+
+TRACEROUTE (using port 8080/tcp)
+HOP RTT       ADDRESS
+1   216.37 ms 10.10.16.1
+2   37.00 ms  10.10.10.198
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1298.76 seconds
