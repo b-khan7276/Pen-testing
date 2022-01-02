@@ -1,8 +1,8 @@
-How to stay Anonymous in Kali Linux (Method 1) 
+# How to stay Anonymous in Kali Linux (Method 1) 
 
-Download Kali-anonostealth 
+### Download Kali-anonostealth 
 
-https://github.com/Und3rf10w/kali-anonsurf.git
+`https://github.com/Und3rf10w/kali-anonsurf.git` 
 
 instll and run
  to start:
