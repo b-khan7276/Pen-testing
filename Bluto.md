@@ -1,6 +1,6 @@
-  TO download from github:
+# To download from github:
           => https://github.com/darryllane/Bluto
           
-  TO install bluto:
+ # To install bluto:
           => pip3 install bluto 
           
