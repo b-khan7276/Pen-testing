@@ -1,4 +1,0 @@
-setspn -a  HYDRA-DC/SQLservice.MARVEL.local:6011 MARVEL\SQLservice
-
-to check status 
-setspn -T MARVEL.local -Q */*
