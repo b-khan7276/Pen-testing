@@ -1,7 +1,5 @@
 
-"
-
-Burp Suite is integreated platform commonly use for security testing
+"Burp Suite is integreated platform commonly use for security testing
 it can also be used as proxy, intruder, scanner, decoder etc.
 Avalible for Mac, Linux, and Windows."
 
